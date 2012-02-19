@@ -1,0 +1,56 @@
+
+a {
+	color:#993399;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#002211;
+	text-decoration:none;
+}
+
+body {
+		width:800px;
+    background: none repeat scroll 0 0 #F7F7F7;
+    color: #333333;
+    font: 12px/14px Arial,Helvetica,sans-serif;
+    text-align: center;
+}
+
+.scope-box{
+	float:left;
+	cursor:nohand;
+	background:white;
+}
+
+.scope-box input{
+	border: 1px solid #CCCCCC;
+	color: #888888;
+	height: 16px;
+	margin: 3px 0 0 4px;
+	padding-left: 20px;
+	padding-top: 1px;
+	width: 202px;
+}
+
+.picture-box{
+	border: 1px solid #CCCCCC;
+	color:white;
+}
+
+.layout{
+	text-align:left;
+	position:relative;
+	width:600px;
+	margin:0;
+	padding: 5px;
+}
+
+.image {
+	text-align:center;
+}
+
+.image:hover {
+	text-align:center;
+	color:#111111;
+}

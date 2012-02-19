@@ -1,0 +1,9 @@
+# Removes the need to use index.php 
+# http://nodefy.com/CodeIgniter/index.php/welcome --> http://nodefy.com/CodeIgniter/welcome
+RewriteEngine On  
+RewriteBase /CodeIgniter
+RewriteCond %{REQUEST_URI} ^system.*  
+RewriteRule ^(.*)$ /index.php/$1 [L]  
+RewriteCond %{REQUEST_FILENAME} !-f  
+RewriteCond %{REQUEST_FILENAME} !-d  
+RewriteRule ^(.*)$ index.php/$1 [L]  
