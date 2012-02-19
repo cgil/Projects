@@ -6,7 +6,7 @@ www.nodefy.com
 Public copies of a few of my projects
 
 livecrowd:
-Crowdsourcing of video feeds for 3d representation of events based onlocation and orientation of camera feed.
+Crowdsourcing of video feeds for 3d representation of events based on location and orientation of camera feed.
 
 CodeIgniter:
 Friendscope:
