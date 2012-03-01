@@ -19,6 +19,7 @@ void draw(){
   update();
 }
 
+//Main control
 void update(){
   int xMove, yMove;
   int[] whereToMove = new int[2];
@@ -38,12 +39,11 @@ void update(){
     }
     
     
-   // println("xMove: " + xMove + "  yMove: " + yMove);
     if(colliding == 0)
       b1.blobMove(xMove, yMove);
     else
     {
-     //b1.blobMove(int(random(0,10)),int(random(0,10))); 
+     //trivial for now
     }
     
     
@@ -51,7 +51,8 @@ void update(){
     b1.drawMob();
   }
 }
-  
+ 
+  //Figure out current direction
   static int[] direction(int[] from, int[] to)
   {
     int[] dir = new int[2];
@@ -60,6 +61,8 @@ void update(){
     return dir;
   }
   
+  //Get the center of mass of all the blobs
+  //Useful when fleeing a group of Blobs
   static int[] centerOfMass(ArrayList<Blobs> blobs)
   {
    int[] centre = new int[2];
@@ -75,6 +78,7 @@ void update(){
    return centre;
   }
 
+  //Calculate distance between two Blobs
   static int distance(Blobs b1, Blobs b2)
   {  
     int distance = (int)sqrt(pow(b1.xPos-b2.xPos,2)+pow(b1.yPos-b2.yPos,2));
@@ -95,6 +99,8 @@ int blobsColliding(Blobs b1, Blobs b2, int xMove,int yMove){
     }
 }
 
+//Routine to add a Blobs with mouse click.
+//Avoids multiple Blobs added on one click.
 void mouseReleased() {
   if(leftPressed == 1) {
     blobs.add(new Blobs());
@@ -104,6 +110,7 @@ void mouseReleased() {
   }
 }
 
+//Blobs 
 class Blobs{
   int age;
   int life;
@@ -137,10 +144,12 @@ class Blobs{
    this.ySpeed = 1;
   }
 
+  //Kill the Blob: currently unused
   void die(){
    this.life = 0; 
   }
   
+  //Find the Blob
   int[] location()
   {
    int[] myLocation = new int[2];
@@ -149,6 +158,7 @@ class Blobs{
    return myLocation; 
   }
   
+  //Calculate my next move based on other Blobs and my position
   int[] decideWhereToMove(ArrayList<Blobs> blobs)
   {
     int[] whereToMove = new int[2];
@@ -173,6 +183,7 @@ class Blobs{
    return whereToMove; 
   }
   
+  //Find all Blobs around me based on my vision radius
   ArrayList<Blobs> findNearbyBlobs(ArrayList<Blobs> allBlobs, int r)
   {
     ArrayList<Blobs> nearbyBlobs = new ArrayList<Blobs>();
@@ -189,21 +200,24 @@ class Blobs{
   }
   
 
-  
+  //Lose life: unused for now
   void loseLife(int damage){
     this.life -= damage;  
   }
   
+  //Increase life: unused for now
   void increaseLife(int health){
    this.life += health;
   }
   
+  //Increase age: unused for now
   void increaseAge(){
    this.age++;
    if(this.age == this.maxAge)
     this.die(); 
   }
-  
+
+  //Draw a Blob as a circle: to be changed in the future
   void drawMob(){
    fill(blobColor);
   
