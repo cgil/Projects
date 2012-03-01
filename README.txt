@@ -42,5 +42,16 @@ These different components talk via Arduino and are processed via Processing.
 We hope to demo this later on in the year as an actual watch and using 
 high frequency readers and an online database.
 
+events:
+One of my earliest projects.
+Takes in event information from Twitter and Yahoo Query Language feeds
+and maps these events onto a Google map. Gives the event a radius
+based on popularity and how many people are talking about that event.
+Also is supposed to look up new events based on both your location and 
+user added events. 
+This uses Google map API, Twitter API, YQL, and Jquery, sitting ontop of PHP.
+Very easly project that has several bugs overall. I scrapped this project 
+until I had a more interesting use for it in the future.
+
 Demo's of these and other projects can be found at:
 http://www.nodefy.com
