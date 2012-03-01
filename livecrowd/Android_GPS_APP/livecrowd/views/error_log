@@ -1,0 +1,69 @@
+[11-Feb-2012 04:17:59] PHP Warning:  require_once(/home/contra66/public_html/livecrowd/header.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 14
+[11-Feb-2012 04:17:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/home/contra66/public_html/livecrowd/header.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 14
+[11-Feb-2012 09:54:21] PHP Parse error:  syntax error, unexpected '&' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 75
+[11-Feb-2012 09:55:28] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:55:56] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:55:57] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:55:58] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:56:00] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:56:03] PHP Parse error:  syntax error, unexpected '[' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 09:57:39] PHP Fatal error:  Call to undefined function getChannel() in /home/contra66/public_html/livecrowd/controllers/event.php on line 27
+[11-Feb-2012 10:53:36] PHP Parse error:  syntax error, unexpected '=' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 76
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 76
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 76
+[11-Feb-2012 10:54:01] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:54:01] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:55:04] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:55:04] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 77
+[11-Feb-2012 10:56:07] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 78
+[11-Feb-2012 10:56:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 80
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 81
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 80
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 81
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 80
+[11-Feb-2012 10:58:10] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 81
+[11-Feb-2012 10:58:10] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 82
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 82
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 82
+[11-Feb-2012 10:58:46] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:58:46] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 10:59:22] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting T_VARIABLE or '$' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 74
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 84
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 84
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 83
+[11-Feb-2012 10:59:32] PHP Warning:  Division by zero in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 84
+[11-Feb-2012 10:59:32] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:00:03] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:00:47] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:01:12] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:01:22] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:03:33] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:03:48] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 11:15:51] PHP Parse error:  syntax error, unexpected ';' in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 62
+[11-Feb-2012 12:05:36] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/event.php on line 23
+[11-Feb-2012 12:05:36] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 50
+[11-Feb-2012 12:05:36] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 69
+[11-Feb-2012 12:05:36] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 67
+[11-Feb-2012 12:09:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/event.php on line 23
+[11-Feb-2012 12:09:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 50
+[11-Feb-2012 12:09:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/controllers/ustreamAPI.php on line 69
+[11-Feb-2012 12:09:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/livecrowd/views/liveEvent.php on line 68

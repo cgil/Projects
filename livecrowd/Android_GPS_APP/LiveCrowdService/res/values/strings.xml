@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="usernamelabel">UStream username:</string>
+    <string name="app_name">LiveCrowdService</string>
+
+</resources>
