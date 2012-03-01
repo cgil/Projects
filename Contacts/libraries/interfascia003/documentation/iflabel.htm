@@ -1,0 +1,136 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; documentation &raquo; IFLabel</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>DOCUMENTATION</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>IFLabel</span></p>
+
+		<p>The IFLabel object creates a new text label.</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Method Summary</b></p>
+
+		<p class="method">IFLabel(String label, int x, int y);<br />
+		IFLabel(String label, int x, int y, int textSize);</p>
+		<p class="description">
+		<span class="code">label,</span> the text displayed on the label<br />
+		<span class="code">x,</span> the X position of the label's upper 
+		left hand corner<br />
+		<span class="code">y,</span> the Y position of the label's upper 
+		left hand corner<br />
+		<span class="code">textSize,</span> text size for the label text</p>
+
+		<p class="method">setLabel(String newLabel)</p>
+		<p class="description">sets the label text<br />
+		<br />
+		<span class="code">newLabel,</span> the new label text</p>
+		
+		<p class="method">getLabel()</p>
+		<p class="description">returns a String object representing the
+		label's text<br /></p>
+		
+		<p class="method">setWidth(int width)</p>
+		<p class="description">sets the width of the label<br />
+		<br />
+		<span class="code">width,</span> the new width for the label</p>
+		
+		<p class="method">getWidth()</p>
+		<p class="description">returns the width of the label in integer
+		form.</p>
+		
+		<p class="method">setHeight(int height)</p>
+		<p class="description">sets the height of the label<br />
+		<br />
+		<span class="code">height,</span> the new height for the label</p>
+		
+		<p class="method">getHeight()</p>
+		<p class="description">returns the height of the label in integer
+		form.</p>
+		
+		<p class="method">setSize(int width, int height)</p>
+		<p class="description">convenience method to set the dimensions 
+		of the label<br />
+		<br />
+		<span class="code">width,</span> the new width for the label<br />
+		<span class="code">height,</span> the new height for the label</p>
+		
+		<p class="method">setX(int x)</p>
+		<p class="description">sets the X position of the label relative 
+		to its GUIController<br />
+		<br />
+		<span class="code">x,</span> the new X position for the label</p>
+		
+		<p class="method">getX()</p>
+		<p class="description">returns the integer X position of the 
+		label relative to its GUIController.</p>
+		
+		<p class="method">setY(int y)</p>
+		<p class="description">sets the Y position of the label relative
+		to its GUIController<br />
+		<br />
+		<span class="code">y,</span> the new Y position for the label</p>
+		
+		<p class="method">getY()</p>
+		<p class="description">returns the integer Y position of the 
+		label relative to its GUIController.</p>
+		
+		<p class="method">setPosition(int x, int y)</p>
+		<p class="description">convenience method to set the position 
+		of the label relative to its GUIController<br />
+		<br />
+		<span class="code">x,</span> the new X position for the label<br />
+		<span class="code">y,</span> the new Y position for the label</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Example</b><br />
+<tt><pre>import interfascia.*;
+
+GUIController c;
+IFLabel l;
+
+void setup() {
+  c = new GUIController (this);
+  
+  l = new IFLabel ("Descriptive Text", 30, 30);
+
+  c.add (l);
+}
+
+void draw() {
+}
+</pre></tt>
+		</p>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; examples &raquo; temperature converter</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>EXAMPLES</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>Temperature Converter</span></p>
+
+		<p>
+<applet code="convert" archive="applets/convert.jar" width="200" height="100" mayscript="true">
+<param name="image" value="loading.gif">
+<param name="boxmessage" value="Loading Processing software...">
+<param name="boxbgcolor" value="#FFFFFF">
+
+<!-- This is the message that shows up when people don't have
+     Java installed in their browser. Any HTML can go here
+     (i.e. if you wanted to include an image other links, 
+     or an anti-Microsoft diatribe. -->
+To view this content, you need to install Java from <A HREF="http://java.com">java.com</A>
+
+</applet>
+		</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Code</b></p>
+<pre class="codeblock">import interfascia.*;
+
+GUIController c;
+IFTextField fahrenheit, celsius;
+IFLabel label1, label2;
+
+DecimalFormat format;
+
+void setup() {
+  size(200, 100);
+  background(200);
+  
+  c = new GUIController(this);
+  
+  fahrenheit = new IFTextField("F", 20, 45, 50);
+  celsius = new IFTextField("C", 110, 45, 50);
+  
+  label1 = new IFLabel("¡F  = ", 75, 50);
+  label2 = new IFLabel("¡C", 165, 50);
+  
+  fahrenheit.addActionListener(this);
+  celsius.addActionListener(this);
+  
+  c.add(fahrenheit);
+  c.add(celsius);
+  c.add(label1);
+  c.add(label2);
+  
+  format = new DecimalFormat();
+  format.setMaximumFractionDigits(2);
+}
+
+void draw() {
+}
+
+void actionPerformed(GUIEvent e) {
+  float temp;
+  if (e.getMessage().equals("Modified")) {
+    if (e.getSource() == fahrenheit) {
+      try {
+        temp = Float.parseFloat(fahrenheit.getValue());
+        celsius.setValue(format.format((temp - 32) * 5 / 9));
+      } catch (Exception e2) { }
+    } else {
+      try {
+        temp = Float.parseFloat(celsius.getValue());
+        fahrenheit.setValue(format.format(temp * 9 / 5 + 32));
+      } catch (Exception e2) { }
+    }
+  }
+}</pre>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; installation & release notes</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>INSTALLATION & RELEASE NOTES</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><b>Installation and Use</b></p>
+
+		<p>To install Interfascia, place the 'interfascia' folder in the 
+		libraries folder in your Processing directory. This will allow 
+		Processing to include Interfascia in the "Import Library" menu. 
+		(If it doesn't show up, you may need to restart Processing.)</p>
+		
+		<p>To use Interfascia in a Processing sketch, select it in the
+		"Import Library" menu. This will add the line 
+		<tt>import interfascia.*;</tt> to the top of your sketch file.</p>
+		
+		<p>&nbsp;</p>
+		
+		<p><b>Bug Reporting</b></p>
+
+		<p>If (when) you encounter a bug, please resist the urge to email 
+		the developers directly. First, search the 
+		<a href="http://code.google.com/p/interfascia/issues/list">bug
+		database</a> for your issue. Chances are, it's already been 
+		discovered and some nice person has posted a temporary work-around. 
+		If it hasn't been documented, enter it as a new bug in the database. 
+		This makes it easier for us to keep track of bugs
+		that need to be fixed for the next release. We will also try to 
+		give you feedback about workarounds or the status of the bug.</p>
+		
+		<p>Once again, the bug database is at
+		<a href="http://code.google.com/p/interfascia/issues/list">http://code.google.com/p/interfascia/issues/list</a></p>
+
+		<p>&nbsp;</p>
+		
+		<p><b>Release Notes</b></p>
+
+		<p>Interfascia 003<span style="color:#999"> -- 30 August 2006</span><br />
+		<ul>
+		<li><tt>remove()</tt> methods are now implemented in <tt>GUIController</tt> and <tt>IFRadioController</tt>
+		<li>Fixed a possible issue with keyboard focus getting out of sync</li>
+		<li><tt>Shift</tt> + <tt>Tab</tt> reverses keyboard focus traversal</li>
+		<li>IFTextField now supports content strings that are longer than
+		the width of its bounding box</li>
+		</ul></p>
+
+		<p>Interfascia 002<span style="color:#999"> -- 26 March 2006</span><br />
+		<ul>
+		<li>Now compatible with Processing BETA</li>
+		<li>Draw methods play nicely with graphics in PApplet</li>
+		<li>Action listeners can be any Object that has an <tt>actionPerformed()</tt>
+		method.</li>
+		<li>Improved font legibility</li>
+		<li>Tab key now traverses GUI components</li>
+		<li>Added IFLabel, IFTextField</li>
+		</ul></p>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; examples &raquo; radio button</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>EXAMPLES</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>Radio Button</span></p>
+
+		<p>
+<applet code="radiobutton" archive="applets/radiobutton.jar" width="200" height="100" mayscript="true">
+<param name="image" value="loading.gif">
+<param name="boxmessage" value="Loading Processing software...">
+<param name="boxbgcolor" value="#FFFFFF">
+
+<!-- This is the message that shows up when people don't have
+     Java installed in their browser. Any HTML can go here
+     (i.e. if you wanted to include an image other links, 
+     or an anti-Microsoft diatribe. -->
+To view this content, you need to install Java from <A HREF="http://java.com">java.com</A>
+
+</applet>
+		</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Code</b></p>
+<pre class="codeblock">import interfascia.*;
+
+GUIController c;
+IFRadioController rc;
+
+IFRadioButton b1, b2, b3;
+
+void setup() {
+  size(200, 100);
+  background(150);
+  
+  c = new GUIController(this);
+  rc = new IFRadioController("Mode Selector");
+  
+  b1 = new IFRadioButton("Reality Distortion Field", 20, 20, rc);
+  b2 = new IFRadioButton("Infinite Improbability Drive", 20, 40, rc);
+  b3 = new IFRadioButton("Bistromathic Drive", 20, 60, rc);
+  
+  c.add(b1);
+  c.add(b2);
+  c.add(b3);
+}
+
+void draw() {
+}</pre>
+	</div>
+
+</body>
+
+</html>

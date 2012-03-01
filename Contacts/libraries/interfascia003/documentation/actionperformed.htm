@@ -1,0 +1,89 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; documentation &raquo; actionPerformed()</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>DOCUMENTATION</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>void actionPerformed()</span></p>
+
+		<p>If it exists, the actionPerfomed() method is called every 
+		time a GUI component generates an event. It is passed a 
+		<a href='guievent.htm'>GUIEvent</a> as an argument. Events are
+		generated on button click, checkbox state change, radio button
+		state change, and text field focus change.</p>
+
+		<p>	The event notification is sent to the listener declared in 
+		the particular component's addActionListener() method.</p>
+		
+		<p>&nbsp;</p>
+
+		<p><b>Syntax</b></p>
+		
+		<pre class="codeblock"><b>void actionPerformed (GUIEvent e) {</b>
+   // Statements here will be executed whenever a GUIEvent is generated
+<b>}</b></pre>
+
+		</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Example</b></p>
+<pre class="codeblock">import interfascia.*;
+
+GUIController c;
+IFButton b1, b2;
+
+void setup() {
+  c = new GUIController (this);
+  
+  b1 = new IFButton ("One", 30, 20, 40, 17);
+  b2 = new IFButton ("Two", 30, 60, 40, 17);
+
+  b1.addActionListener(this);
+  b2.addActionListener(this);
+
+  c.add (b1);
+  c.add (b2);
+}
+
+void draw() {
+}
+
+void actionPerformed (GUIEvent e) {
+  if (e.getSource() == b1) {
+    println("Button one was clicked");
+  } else if (e.getSource() == b2) {
+    println("Button two was clicked");
+  }
+}</pre>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; documentation &raquo; GUIEvent</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>DOCUMENTATION</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>GUIEvent</span></p>
+
+		<p>The GUIEvent object is passed to the 
+		<a href='actionperformed.htm'>actionPerformed()</a>
+		method every time a GUI component generates an event. A GUIEvent
+		has two fields, source and message. The methods getSource() and 
+		getMessage() will return those values. The event's source is the 
+		component that generated the event, the message is a string that
+		describes the nature of the event.</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Method Summary</b></p>
+
+		<p class="method">getSource();</p>
+		<p class="description">The getSource() method returns the GUI 
+		component that generated the event.</p>
+
+		<p class="method">getMessage();</p>
+		<p class="description">The getSource() method returns a string 
+		containing a description of the event.</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Example</b><br />
+<tt><pre>void actionPerformed (GUIEvent e) {
+   print ("Component: " + e.getSource().getLabel());
+   print ("Message: " + e.getMessage());
+}</pre></tt>
+		</p>
+	</div>
+
+</body>
+
+</html>

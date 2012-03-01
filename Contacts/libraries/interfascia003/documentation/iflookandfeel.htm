@@ -1,0 +1,104 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; documentation &raquo; IFLabel</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>DOCUMENTATION</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>IFLookAndFeel</span></p>
+
+		<p>The IFLookAndFeel object specifies the colors for Interfascia
+		widgets.</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Method Summary</b></p>
+
+		<p class="method">IFLookAndFeel(char type)</p>
+		<p class="description">
+		<span class="code">type,</span> the type of look and feel to use
+		(currently, only <tt>DEFAULT</tt> is implemented)</p>
+
+		<p class="method">IFLookAndFeel(PApplet parent, char type)</p>
+		<p class="description">
+		<span class="code">parent,</span> the Processing applet that is using
+		the Interfascia library<br />
+		<span class="code">type,</span> the type of look and feel to use
+		(currently, only <tt>DEFAULT</tt> is implemented)</p>
+		
+		<p>&nbsp;</p>
+
+		<p><b>Field Summary</b></p>
+		
+		<p class="method">static final int DEFAULT</p>
+		<p class="description">Default look and feel color scheme</p>
+
+		<p class="method">int baseColor</p>
+		<p class="description">the default color for the background of an
+		Interfascia widgets</p>
+
+		<p class="method">int borderColor</p>
+		<p class="description">the color for the border of an Interfascia
+		widget</p>
+
+		<p class="method">int selectionCoor</p>
+		<p class="description">the color for selected text in an Interfascia
+		text field</p>
+
+		<p class="method">int highlightColor</p>
+		<p class="description">the color for the background of an Interfascia
+		widget with mouse or keyboard focus</p>
+
+		<p class="method">int activeColor</p>
+		<p class="description">the color for the background of an Interfascia
+		widget while it is clicked</p>
+
+		<p class="method">int textColor</p>
+		<p class="description">the color for text in an Interfascia widget</p>
+		
+		<p class="method">int lightGrayColor</p>
+		<p class="description">light gray, used for the selection dot in
+		IFRadioButton</p>
+
+		<p class="method">int darkGrayColor</p>
+		<p class="description">dark gray, used for the insertion point in
+		IFTextField and the check in IFCheckBox</p>
+
+
+		<p>&nbsp;</p>
+
+		<p><b>Example</b><br />
+<tt><pre>greenLook = new IFLookAndFeel(this, IFLookAndFeel.DEFAULT);
+greenLook.baseColor = color(100, 180, 100);
+greenLook.highlightColor = color(70, 135, 70);</pre></tt>
+		</p>
+	</div>
+
+</body>
+
+</html>

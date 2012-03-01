@@ -1,0 +1,50 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; home</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>INTERFASCIA 003 ALPHA</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>		
+		<p><img src="images/blur.jpg" alt="close-up" width="600" height="297" /></p>
+
+		<p><b>Interfascia</b> is a graphical user interface library for the 
+			<a href="http://processing.org/">Processing</a> graphics programming 
+			environment. It provides a toolkit of standard interface widgets 
+			like text fields, buttons, checkboxes, sliders, etc. Interfascia 
+			automatically handles interactions within the collection of widgets 
+			and sends event messages to your project.<br />
+			<br />
+			Interfascia is a project initiated and maintained by 
+			<a href='http://www.thbbpt.net/'>Brendan&nbsp;Berg</a> and released
+			under the <a href="http://www.gnu.org/licenses/lgpl.html">GNU LGPL</a>.<br />
+		</p>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!-- Site design by Brendan Berg 2004 -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<script language="JavaScript" src="scripts.js"></script>
+	<meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
+	<title>Interfascia &raquo; documentation &raquo; IFRadioController</title>
+	<style type='text/css' media='all'>@import "style.css";</style>
+</head>
+
+<body onload="buildMenus()">
+
+	<div class="navigation">
+		<p><span class='title'><i>DOCUMENTATION</i></span></p>
+
+		<form name="navigation"><select name="projects" onchange="loadPage(this)">
+			<option>Please enable JavaScript</option>
+			<option>---------------------</option>
+		</select>
+		<select name="sketches" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select>
+		<select name="exhibitions" onchange="loadPage(this)">
+			<option>---------------------</option>
+		</select></form>
+	</div>
+	
+	<div>
+		<p><span class='header'>IFRadioController</span></p>
+
+		<p>The IFRadioController object keeps track of all 
+		<a href="ifradiobutton.htm">IFRadioButton</a>
+		components in one group and makes sure only one is selected. Radio
+		buttons can be added to a group either by passing them to the radio
+		controller through the <span class="code">add()</span> method, or by
+		specifying a controller when creating a new radio button.</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Method Summary</b></p>
+
+		<p class="method">IFRadioController();<br />
+		IFRadioController(String label);</p>
+		<p class="description">
+		<span class="code">label,</span> the name of the radio button group</p>
+
+		<p class="method">add(RadioButton button);</p>
+		<p class="description">The add() method adds a RadioButton to the
+		controller's list of buttons it controls.<br />
+		<br />
+		<span class="code">button,</span> the radio button to be added</p>
+
+		<p class="method">remove(RadioButton button);</p>
+		<p class="description">The remove() method removes a RadioButton 
+		from the controller's list of buttons it controls.<br />
+		<br />
+		<span class="code">button,</span> the radio button to be removed</p>
+
+		<p class="method">getSelected();</p>
+		<p class="description">The getSelected() method returns the currently 
+		selected RadioButton. If none is selected, it returns null.</p>
+
+		<p class="method">getSelectedIndex();</p>
+		<p class="description">The getSelectedIndex() method returns an int, 
+		which is the numerical index of the currently selected RadioButton. If 
+		none is selected, its value is -1.</p>
+
+		<p class="method">deselectAll();</p>
+		<p class="description">The deselectAll() method deselects the currently 
+		selected radio button so no buttons are selected.</p>
+
+		<p class="method">addActionListener(Object listener);</p>
+		<p class="description">adds an action listener Object which receives
+		GUIEvents when a radio button is clicked. You must implement
+		the <a href="actionperformed.htm">actionPerformed()</a> method in order
+		to receive events from the radio controller.<br />
+		<br />
+		<span class="code">listener,</span> the object that events are sent to 
+		(usually 'this').</p>
+
+		<p>&nbsp;</p>
+
+		<p><b>Example</b><br />
+<tt><pre>import interfascia.*;
+
+GUIController c;
+IFRadioController rc;
+IFRadioButton b1, b2, b3;
+
+void setup() {
+   c = new GUIController(this);
+   rc = new IFRadioController("Selector");
+   b1 = new IFRadioButton("One", 30, 20, rc);
+   b2 = new IFRadioButton("Two", 30, 40, rc);
+   b3 = new IFRadioButton("Three", 30, 60, rc);
+
+   c.add(b1);
+   c.add(b2);
+   c.add(b3);
+}
+</pre></tt>
+		</p>
+	</div>
+
+</body>
+
+</html>
