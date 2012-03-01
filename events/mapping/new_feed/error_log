@@ -1,0 +1,14 @@
+[30-Sep-2011 20:19:22] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:20:09] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:20:12] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:20:13] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:20:14] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:23:39] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 25
+[30-Sep-2011 20:35:27] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 3
+[30-Sep-2011 20:39:14] PHP Parse error:  syntax error, unexpected T_ELSE in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 31
+[30-Sep-2011 20:39:17] PHP Parse error:  syntax error, unexpected T_ELSE in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 31
+[30-Sep-2011 20:42:46] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 17
+[30-Sep-2011 21:48:10] PHP Parse error:  syntax error, unexpected '.' in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 29
+[30-Sep-2011 22:22:01] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 31
+[30-Sep-2011 22:22:29] PHP Warning:  require_once(../../../config_database/config.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 5
+[30-Sep-2011 22:22:29] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../config_database/config.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/contra66/public_html/nodefy_beta/mapping/new_feed/db_feed.php on line 5

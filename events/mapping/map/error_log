@@ -1,0 +1,163 @@
+[30-Sep-2011 20:32:25] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node.php on line 18
+[30-Sep-2011 22:44:36] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 22
+[30-Sep-2011 22:45:02] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 1
+[30-Sep-2011 22:45:20] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 23
+[30-Sep-2011 22:45:23] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 23
+[30-Sep-2011 22:45:50] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 20
+[30-Sep-2011 22:46:54] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 20
+[30-Sep-2011 22:46:58] PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 20
+[30-Sep-2011 22:51:25] PHP Parse error:  syntax error, unexpected ';' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:51:42] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:51:42] PHP Parse error:  syntax error, unexpected T_STRING, expecting ']' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:52:25] PHP Parse error:  syntax error, unexpected '>' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:55:11] PHP Parse error:  syntax error, unexpected '>' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:55:17] PHP Parse error:  syntax error, unexpected '>' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 21
+[30-Sep-2011 22:56:07] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 22
+[30-Sep-2011 22:57:31] PHP Parse error:  syntax error, unexpected '<' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 22
+[30-Sep-2011 22:58:20] PHP Parse error:  syntax error, unexpected '<' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 22
+[30-Sep-2011 22:58:22] PHP Parse error:  syntax error, unexpected '<' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 22
+[30-Sep-2011 23:54:00] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 25
+[30-Sep-2011 23:56:16] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 25
+[01-Oct-2011 00:07:34] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:08:00] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:08:05] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:09:48] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:09:52] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:10:16] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:13:00] PHP Fatal error:  Cannot redeclare file_get_contents() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 27
+[01-Oct-2011 00:13:39] PHP Fatal error:  Cannot redeclare file_get_contents() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 27
+[01-Oct-2011 00:13:40] PHP Fatal error:  Cannot redeclare file_get_contents() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 27
+[01-Oct-2011 00:15:35] PHP Fatal error:  Cannot redeclare file_get_contents() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 27
+[01-Oct-2011 00:18:09] PHP Fatal error:  Cannot redeclare file_get_contents() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 26
+[01-Oct-2011 00:19:49] PHP Parse error:  syntax error, unexpected T_FOREACH in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 37
+[01-Oct-2011 00:20:17] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:34] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:37] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:38] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:21:39] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:24:42] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:29:34] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 35
+[01-Oct-2011 00:35:39] PHP Parse error:  syntax error, unexpected ')' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:36:09] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:49:47] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 39
+[01-Oct-2011 00:50:25] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:25] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:25] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:25] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:26] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:26] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:26] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:26] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:27] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:27] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:50:27] PHP Warning:  preg_match_all() expects at least 3 parameters, 2 given in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:38] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:38] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:39] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:39] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:39] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:40] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:40] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:40] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:40] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:41] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 00:51:41] PHP Warning:  preg_match_all() [<a href='function.preg-match-all'>function.preg-match-all</a>]: Delimiter must not be alphanumeric or backslash in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node1.php on line 36
+[01-Oct-2011 03:26:01] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 63
+[01-Oct-2011 03:27:43] PHP Parse error:  syntax error, unexpected '}' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 62
+[01-Oct-2011 03:28:21] PHP Parse error:  syntax error, unexpected $end in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 62
+[01-Oct-2011 03:29:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:05] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:06] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:07] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:08] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:09] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:29:09] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:32:43] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:37] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:40] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:40] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:40] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:41] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:40:41] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 35
+[01-Oct-2011 03:55:17] PHP Parse error:  syntax error, unexpected T_AS in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:56:45] PHP Parse error:  syntax error, unexpected T_AS in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 03:57:35] PHP Parse error:  syntax error, unexpected T_AS in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 34
+[01-Oct-2011 04:01:37] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:38] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:39] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:40] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:40] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:41] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:41] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:01:41] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:18] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:19] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:22] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:22] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:23] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:23] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:24] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:24] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:25] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:03:25] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:11] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:12] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:12] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:12] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:13] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:13] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:13] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:13] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:14] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:14] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:15] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:15] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:15] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:16] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:11:16] PHP Warning:  Invalid argument supplied for foreach() in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate.php on line 37
+[01-Oct-2011 04:34:09] PHP Parse error:  syntax error, unexpected '!', expecting '(' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 35
+[01-Oct-2011 04:35:01] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 39
+[01-Oct-2011 04:36:05] PHP Parse error:  syntax error, unexpected ')' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 45
+[01-Oct-2011 04:36:30] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 62
+[01-Oct-2011 05:00:25] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 65
+[01-Oct-2011 05:01:09] PHP Parse error:  syntax error, unexpected ',' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 71
+[01-Oct-2011 05:07:47] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 80
+[01-Oct-2011 08:00:44] PHP Parse error:  syntax error, unexpected '{' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate1.php on line 112
+[01-Oct-2011 08:14:43] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate2.php on line 88
+[01-Oct-2011 08:41:53] PHP Parse error:  syntax error, unexpected '{' in /home/contra66/public_html/nodefy_beta/mapping/map/twitter_populate2.php on line 86
+[06-Oct-2011 17:13:33] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node.php on line 23
+[06-Oct-2011 17:13:53] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node.php on line 23
+[06-Oct-2011 17:16:06] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/contra66/public_html/nodefy_beta/mapping/map/pull_node.php on line 23

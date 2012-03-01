@@ -1,0 +1,207 @@
+/* * {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #FAFAFA;
+	color: #666;
+	font: 13px Tahoma;
+	cursor: default;
+}
+
+body a {
+	text-decoration: none;
+	outline: none;
+	color: #06C;
+}
+
+body a:hover {
+	text-decoration: underline;
+}
+
+body .hidden {
+	display: none;
+}
+
+body h1 {
+	font-size: 32px;
+	font-weight: normal;
+}
+
+body h2 {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #E6E6E6;
+	font-size: 17px;
+	font-weight: normal;
+}
+
+body pre {
+	text-align: left;
+	padding: 10px;
+	background: #e4e4e4;
+	margin-bottom: 16px;
+}
+
+body ul {
+	list-style-type: none;
+}
+
+*/
+
+div.clear {
+	clear: both;
+}
+/*
+div#head {
+	padding-top: 10px;
+	border-left-color: #8A6DAE;
+}
+
+div#head h1 a {
+	color: #444;
+	text-decoration: none;
+}
+
+div#head h1 span {
+	display: block;
+	color: #888;
+	font-size: 14px;
+}
+*/
+
+div.block {
+	padding: 5px 0 5px 0;
+	background-color: #FFF;
+	
+}
+
+div.block fieldset {
+	width: 700px;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+div.block fieldset input.text {
+	border: 1px solid #666666;
+	padding: 3px 6px;
+	color: #333333;
+}
+
+div.block fieldset input.error {
+	border: 1px solid red;
+}
+
+div.block fieldset input.send {
+	border: 1px solid #666666;
+	padding: 3px 6px;
+	background: #333333;
+	color: #fff;
+	cursor: pointer;
+}
+
+div.block fieldset legend {
+	padding: 5px 10px;
+	font-weight: bold;
+}
+
+div.block fieldset p {
+	margin: 8px 0;
+}
+
+div.block fieldset label {
+	float: left;
+	width: 180px;
+}
+
+div.block fieldset label.error {
+	float: none;
+	margin-left: 5px;
+	color: red;
+}
+
+div#wrap {
+	width: 260px;	
+	float: left;
+	position: relative;
+	left: 10px;
+	border-style: solid;
+	border-color:#030;
+	border-width: thin;
+	clear: right;
+	
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+}
+
+div#content {
+	padding-top: 0;
+}
+
+div#content div.block {
+	margin-bottom: 0;
+}
+
+div#info {
+	padding-bottom: 5px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	
+}
+
+div#info.ok {
+	border-left-color: #ACD083;
+}
+
+div#info.otravez {
+	border-left-color: #DC7873;
+}
+
+div#info ul {
+	margin-top: 10px;
+}
+
+div#info ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+div#info ul li a:hover img {
+	border: 1px solid #666;
+}
+
+div#info ul li img {
+	border: 1px solid #ccc;
+}
+
+ul#ticker {
+	width: 250px;
+	height: 360px;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 10px;
+}
+
+ul#ticker li {
+	width: 220px;
+	height: 64px;
+	padding: 12px;
+	border: 1px;
+/*
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-color:#300;
+	border-width: thin;
+*/
+	overflow: hidden;
+}
+
+ul#ticker li a {
+	color: #666;
+}
+
+ul#ticker li span {
+	display: block;
+	color: #06C;
+}
