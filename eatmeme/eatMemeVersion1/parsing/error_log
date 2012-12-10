@@ -1,0 +1,2 @@
+[14-Jul-2012 20:40:01 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/contra66/public_html/meme/parsing/getSentences.php on line 14
+[14-Jul-2012 20:40:22 UTC] PHP Warning:  preg_match_all() expects parameter 2 to be string, array given in /home/contra66/public_html/meme/parsing/getSentences.php on line 14

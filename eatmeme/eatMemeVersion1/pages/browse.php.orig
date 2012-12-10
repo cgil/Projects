@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>eatmeme</title>
+
+<link href="../CSS/browse.css" rel="stylesheet" type="text/css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script src="../common/ajax_helper.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function addToGrid(newMeme)
+{ 
+	var data = "<li>" + newMeme + "</li>";
+	$("#gridList").prepend(data);
+	
+	$('#gridList li:last').remove();
+}
+
+function memePopup(tweetLink)
+{
+	ajax_simple_get(tweetLink);
+
+}
+
+</script>
+
+</head>
+<body>
+<?php include("../twitterFeed.html"); ?>
+	<div class="browsePage_content">
+    	<div class="search_content">
+        <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="POST">
+        	<div class="searchbox"><input type="text" name="q" id="searchbox"></div>
+			<div class="searchbutton">
+            		<input id="fiestButton" name="fiestButton" type="submit">
+            </div>
+        </form>
+        </div>
+        
+        <div class="feed_content">
+        </div>
+        
+        <div id="main_content">
+        
+        	<div id="memeGrid">
+            	<ul id="gridList">
+                	<li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+
+
+                </ul>
+            </div>
+        
+        </div>
+    </div>
+    
+    <?php 
+		$phrase = $_POST['q'];
+		if ($phrase != NULL)
+		{
+			require_once("../main/main.php");
+			$gridMemes = array("");
+			$recentlyUsedMemeIDs = array("");
+			$usedTweets = array("");
+			
+			while (true)
+			{
+				mainLoop($phrase, $gridMemes, $recentlyUsedMemeIDs, $usedTweets);
+			}
+		}
+	?>
+    
+</body>
+</html>

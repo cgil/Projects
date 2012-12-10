@@ -1,0 +1,58 @@
+/* Main CSS */
+
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  
+  background: url('../Images/homePage.png') no-repeat;
+  background-size: 100%;
+}
+
+.searchbox {
+
+	background: url('../Images/search_bar.png') no-repeat;
+	background-size: 100%;
+	width: 226px;
+	height: 38px;
+	position:absolute;
+	border: 0;
+	outline:none;
+	top: 420px;
+	left: 380px;
+	
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.searchbutton input {
+	background: url('../Images/feast_button.png') no-repeat;
+	background-size: 100%;
+	position:absolute;
+	width: 85px; 
+	height: 40px;
+	border: 0;
+	float: left;
+	top: 420px;
+	left: 620px;
+}
+
+.searchbutton input:active {
+	background: url('../Images/feast_button_depressed.png') no-repeat;
+}
+
+.searchbox input {
+	margin-top:8px;
+	margin-left:8px;
+	border:0px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 18px;
+	outline-width: 0;
+}
+
+#fiestButton {
+	color:transparent;
+}

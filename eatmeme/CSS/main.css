@@ -1,0 +1,386 @@
+/* Shared css document */
+
+/* Main CSS */
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+  background-color:rgb(255,255,255);
+}
+
+#mainContent {
+	width:inherit;
+	height:inherit;
+}
+
+
+/********* Left side bar *************/
+
+#infoContainer {
+
+	float:left;
+	position:relative;
+	margin-top:80px;
+	margin-left:0px;	
+	
+}
+
+
+#contactContainer {
+	position:absolute;
+	margin-left: 20px;
+
+	bottom: 5px;
+	font-weight:700;
+	font-size:16px;
+	
+}
+
+#howToContainer {
+	position:absolute;
+	margin-left: 120px;
+	bottom: 5px;
+	font-weight:700;
+	font-size:16px;
+	
+}
+
+a:link {
+	color:#09F;
+}      /* unvisited link */
+a:visited {
+	color:#993366;
+}  /* visited link */
+a:hover {
+	color:#0000CC;
+}  /* mouse over link */
+a:active {
+	color:#06F;
+}  /* selected link */
+
+#searchContainer {
+	width: inherit;
+	height: 150px;
+	
+	float: left;
+	
+	border-bottom-width:thin;
+	border-bottom-style:solid;
+	border-bottom-color:#CCCCCC;
+}
+
+#searchBoxContainer {
+
+	background: url('../Images/search_bar.png') no-repeat;
+	background-size: 100%;
+	width: 226px;
+	height: 38px;
+	position:relative;
+	border-width:thin;
+	border-radius:5px;
+	border-style:solid;
+	outline:none;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+
+#searchBoxContainer input {
+	margin-top:8px;
+	margin-left:8px;
+	margin-right: 8px;
+	border:0px;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 18px;
+	outline-width: 0;
+}
+
+
+#searchButtonContainer input {
+	background: url('../Images/feast_button.png') no-repeat;
+	background-size: 100%;
+	position:relative;
+	width: 85px; 
+	height: 40px;
+	border: 0;
+	float: left;
+	margin-top: 100px;;
+	margin-left: -228px;
+}
+
+#pauseButton {
+	color:transparent;
+}
+
+#pauseButtonContainer input {
+	background: url('../Images/play_button.png') no-repeat;
+	background-size: 100%;
+	position:relative;
+	width: 55px; 
+	height: 55px;
+	border: 0;
+	margin-top: 93px;;
+	margin-left: -148px;
+}
+
+#pauseButtonContainer input:active {
+	background-size: 100%;
+}
+#pauseButtonContainer input:hover {
+	background-size: 105%;
+	cursor:pointer;	
+}
+
+
+#nextButton {
+	color:transparent;
+}
+
+#nextButtonContainer input {
+	background: url('../Images/next_button.png') no-repeat;
+	background-size: 100%;
+	position:relative;
+	float:left;
+	width: 55px; 
+	height: 55px;
+	border: 0;
+	margin-top: -55px;;
+	margin-left: 200px;
+}
+
+#nextButtonContainer input:active {
+	background: url('../Images/next_button.png') no-repeat;
+	background-size: 100%;
+}
+#nextButtonContainer input:hover {
+	background: url('../Images/next_button.png') no-repeat;
+	background-size: 105%;
+	cursor:pointer;	
+}
+
+
+#searchButtonContainer input:active {
+	background: url('../Images/feast_button_depressed.png') no-repeat;
+}
+#searchButtonContainer input:hover {
+	background: url('../Images/feast_button.png') no-repeat;
+	cursor:pointer;	
+}
+
+#fiestButton {
+	color:transparent;
+}
+
+
+#leftSideBar {
+	
+	width: 360px;
+	height:100%;
+	float: left;
+	
+}
+
+a {
+	text-decoration:none;
+}
+
+
+/********* Infinite scroller ************/
+
+#infiniteScroller {
+	width: 660px;
+	height:auto;
+	min-height: 100%;
+	float: left;
+	
+	border-right-width:thin;
+	border-right-style:solid;
+	border-right-color:#CCCCCC;
+	
+	border-left-width:thin;
+	border-left-style:solid;
+	border-left-color:#CCCCCC;
+	
+}
+
+.payloadContainer {
+	width: 580px;
+	height: auto;
+	
+	border-width:thin;
+	border-style:solid;
+	border-color:#CCCCCC;
+	float: left;
+	
+	margin-top: 35px;
+	margin-left: 35px;
+	
+}
+
+.tweetContainer {
+	background-size: 100%;
+	
+	width: 520px;
+	height: 65px;
+	
+	float:left;
+	margin-left: 20px;
+	margin-top: 20px;	
+	
+}
+
+.memeImageContainer {
+	
+	width: 580px;
+	height: auto;
+	min-height: 250px;
+	
+	float:left;
+
+	margin: 0px;
+}
+
+.shareContainer {
+	background-size: 100%;
+	width: 520px;
+	height: 50px;
+	
+	float:left;
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+	border-top-width:thin;
+	border-top-style:solid;
+	border-top-color:#CCCCCC;
+	
+}
+
+
+#payloadQueue {
+    list-style-type: none;
+	padding: 0;
+	margin-left: 0;
+	height:auto;
+	width: auto;
+	
+	float:left;
+	
+}
+
+#payloadQueue li {
+	height:auto;
+	width: auto;
+	padding-left: 0px;
+	margin-left:0px;
+	float: left;
+
+}
+
+#payloadQueue ul {
+	min-height: 700px;
+
+}
+
+
+.memeImage {
+	
+	max-width: 100%;
+    margin: auto;
+	display:block;
+	
+}
+
+
+/*  Edit button controls pyloads and memes */
+
+.editButtonContainer {
+	margin-top: 5px;	
+}
+
+.editButton input {
+	color:transparent;
+}
+
+.editButton {
+	background: url('../Images/edit_button.png') no-repeat;
+	background-size: 95%;
+	position:relative;
+	width: 35px; 
+	height: 35px;
+	border: 0;
+	margin-top: 0px;
+	margin-left: 250px;
+}
+
+.editButton input:active {
+	background-size: 95%;
+}
+.editButton input:hover {
+	background-size: 100%;
+	cursor:pointer;	
+}
+
+
+.editTextContainer {
+	float: left;
+	position:relative;
+	margin: 0px auto;
+	height: 50px;
+	width: 100%;
+	
+}
+
+.editTextContainer textarea {
+	resize: none;
+	max-width: inherit; 
+	max-height: inherit;
+	
+	border-width:thin;
+	border-style:solid;
+	border-color:#CCCCCC;
+
+}
+
+
+.doneButton {
+	background: url('../Images/done_button.png') no-repeat;
+	background-size: 100%;
+	position:relative;
+	width: 35px; 
+	height: 35px;
+	border: 0;
+	margin-top: 0px;
+	margin-left: 250px;
+}
+
+.doneButton input:active {
+	background-size: 100%;
+}
+.doneButton input:hover {
+	background-size: 105%;
+	cursor:pointer;	
+}
+
+
+
+
+/********* Right side bar *************/
+
+
+#rightSideBar {
+	width: 200px;
+	height:inherit;
+	float: left;
+}
+
+
