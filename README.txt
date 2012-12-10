@@ -8,12 +8,11 @@ www.gilventures.com
 Public version of a few projects as source code demos:
 -These are samples not complete projects and may not be up-to-date with current versions of these projects.
 
-livecrowd:
-Crowdsourcing of video feeds for 3d representation of events based on location and orientation of camera feed.
-Uses an Android app to track user GPS location and Ustream API to keep 
-position live video feeds around an event based on location.
--Android_GPS_APP: An Android application that runs as a service, created to 
-upload your gps coordinates to our livecrowd database while using our app.
+evolution:
+The start of an evolution simulator.
+I began writting this just for fun to test a few different algorigthms. There are large blobs that are prey
+and a bunch of tiny oodles that hunt and eat the blobs. If I keep working on this in the future I'll try
+making a sustainable online environment or shift focus to creating a cool screensaver.
 
 eatMeme:
 Eatmeme tries to create funny memes out of tweets on the fly.
@@ -22,6 +21,14 @@ twitter queries. I take the top twitter results and remove what I consider to be
 resulting phrase against a popular meme generator website. I take the best match to the phrase and form a meme  
 with the text overlay on top of the image.
 Mostly written in Javascript using JQuery and a PHP backend. 
+
+livecrowd:
+Crowdsourcing of video feeds for 3d representation of events based on location and orientation of camera feed.
+Uses an Android app to track user GPS location and Ustream API to keep
+position live video feeds around an event based on location.
+-Android_GPS_APP: An Android application that runs as a service, created to
+upload your gps coordinates to our livecrowd database while using our app.
+
 
 friendscope:
 Application that publicly display all user's Facebook Friends and allows you to view private pictures regardless of friendship status.
