@@ -35,9 +35,7 @@ Application that publicly display all user's Facebook Friends and allows you to 
 This utilizes a gap in Facebook's privacy policy and the Facebook API to grab
 all application user's friend's and keep active access tokens for later use.
 Other information is also available.
-The demo for this version is "OFF" and not available for public use.
-You can browse a few previously added user's as a demo at
-(http://www.nodefy.com)
+The demo for this version is "OFF" and not available for public use due to privacy concerns, play with it at your own disclosure.
 
 Blobs:
 Ongoing browser based evolution simulator.
@@ -70,5 +68,5 @@ This uses Google map API, Twitter API, YQL, and Jquery, sitting ontop of PHP.
 Very easly project that has several bugs overall. I scrapped this project 
 until I had a more interesting use for it in the future.
 
-Demo's of these and other projects can be found at:
-http://www.nodefy.com
+Demo's of these and other projects as well as my blog can be found at:
+http://www.gilventures.com
