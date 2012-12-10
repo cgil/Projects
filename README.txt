@@ -10,7 +10,7 @@ Public version of a few projects as source code demos:
 
 evolution:
 The start of an evolution simulator.
-I began writting this just for fun to test a few different algorigthms. There are large blobs that are prey
+I began writting this just for fun to test a few different algorithms. There are large blobs that are prey
 and a bunch of tiny oodles that hunt and eat the blobs. If I keep working on this in the future I'll try
 making a sustainable online environment or shift focus to creating a cool screensaver.
 
