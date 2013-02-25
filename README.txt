@@ -8,6 +8,9 @@ www.gilventures.com
 Public version of a few projects as source code demos:
 -These are samples not complete projects and may not be up-to-date with current versions of these projects.
 
+Tweezy:
+Tweezy the twitter rapper! Search for a popular hashtag and Tweezy will scrub twitter and make a a rap song on the fly. The propblem with Tweezy right now comes from the difficulty of forming meaningful rhyming lyrics from a slow twitter stream. This can be fixed by storing a few thousands Tweets ahead beforehand, running and preemtively indexing them agaisnt a rhyming dictionary. Updates to come.  
+
 evolution:
 The start of an evolution simulator.
 I began writting this just for fun to test a few different algorithms. There are large blobs that are prey
