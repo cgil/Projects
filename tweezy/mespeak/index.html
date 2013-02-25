@@ -1,0 +1,189 @@
+<html>
+<title>meSpeak.js: Text-to-Speech on the Web</title>
+<head>
+  <script>
+    // This demo is licensed under the GNU GPL.
+  </script>
+  <script type="text/javascript" src="mespeak.js"></script>
+  <script type="text/javascript">
+    meSpeak.loadConfig("mespeak_config.json");
+    meSpeak.loadVoice("voices/en/en.json");
+  
+    function loadVoice(id) {
+      var fname="voices/"+id+".json";
+      meSpeak.loadVoice(fname, voiceLoaded);
+    }
+  
+    function voiceLoaded(success, message) {
+      if (success) {
+        alert("Voice loaded: "+message+".");
+      }
+      else {
+        alert("Failed to load a voice: "+message);
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1>meSpeak.js</h1>
+  <h2>Text-To-Speech on the Web</h2>
+  <form onsubmit="meSpeak.speak(text.value, { amplitude: amplitude.value, wordgap: workdgap.value, pitch: pitch.value, speed: speed.value }); return false">
+    Text: <input type="text" name="text" size=50 value="Never gonna give, you, up.">
+    Amplitude: <input type="text" name="amplitude" size=5 value="100">
+    Pitch: <input type="text" name="pitch" size=5 value="50">
+    Speed: <input type="text" name="speed" size=5 value="175">
+    Word gap: <input type="text" name="workdgap" size=5 value="0">
+    <input type="submit" value="Go!">
+  </form>
+  <form onsubmit="return false">
+    Voice: <select onchange="loadVoice(this.options[this.selectedIndex].value);">
+    	<option value="ca">ca - Catalan</option>
+		<option value="cs">cs - Czech</option>
+		<option value="de">de - German</option>
+		<option value="el">el - Greek</option>
+		<option value="en/en" selected="selected">en - English</option>
+		<option value="en/en-n">en-n - English, regional</option>
+		<option value="en/en-rp">en-rp - English, regional</option>
+		<option value="en/en-sc">en-sc - English, Scottish</option>
+		<option value="en/en-us">en-us - English, US</option>
+		<option value="en/en-wm">en-wm - English, regional</option>
+		<option value="eo">eo - Esperanto</option>
+		<option value="es">es - Spanish</option>
+		<option value="es-la">es-la - Spanish, Latin America</option>
+		<option value="fi">fi - Finnish</option>
+		<option value="fr">fr - French</option>
+		<option value="hu">hu - Hungarian</option>
+		<option value="it">it - Italian</option>
+		<option value="kn">kn - Kannada</option>
+		<option value="la">la - Latin</option>
+		<option value="lv">lv - Latvian</option>
+		<option value="nl">nl - Dutch</option>
+		<option value="pl">pl - Polish</option>
+		<option value="pt">pt - Portuguese, Brazil</option>
+		<option value="pt-pt">pt-pt - Portuguese, European</option>
+		<option value="ro">ro - Romanian</option>
+		<option value="sk">sk - Slovak</option>
+		<option value="sv">sv - Swedish</option>
+		<option value="tr">tr - Turkish</option>
+	</select>
+  </form>
+  <hr style="margin-top: 2em; margin-bottom: 2em;">
+  <h3>About</h3>
+  <p>
+  	<b>meSpeak.js</b> (modulary enhanced speak.js) is a 100% client-side JavaScript text-to-speech library based on the <a href="http://syntensity.com/static/espeak.html" target="_blank">speak.js</a> project (see below).<br />
+  	meSpeak.js adds support for Webkit and Safari and introduces loadable voice modules. Also there is no more need for an embedding HTML-element.<br />
+  	Separating the code of the library from config-data and voice definitions should help future optimizations of the core part of <a href="http://syntensity.com/static/espeak.html" target="_blank">speak.js</a>.<br />
+  	All separated data has been compressed to base64-encoded strings from the original binary files to save some bandwidth (compared to JS-arrays of raw 8-bit data).<br />
+  	Browser requirements: Firefox, Chrome, Webkit, and Safari<br />
+  	meSpeak.js 2011 by N.Landsteiner, mass:werk &ndash; media environments; <a href="http://www.masswerk.at/mespeak/">http://www.masswerk.at/mespeak/</a>
+  </p>
+  
+  <h3>Usage</h3>
+  <p style="margin-left: 2em; white-space: pre; font-family: monospace;">meSpeak.loadConfig(&quot;mespeak_config.json&quot;);
+meSpeak.loadVoice('en-us.json');
+meSpeak.speak('hello world');
+meSpeak.speak('hello world', { option1: value1, option2: value2 .. });
+options:
+* amplitude: How loud the voice will be (default: 100)
+* pitch: The voice pitch (default: 50)
+* speed: The speed at which to talk (words per minute) (default: 175)
+* voice: Which voice to use (default: last voice loaded or defaultVoice, see below)
+* wordgap: Additional gap between words in 10 ms units (default: 0)
+
+if (meSpeak.isVoiceLoaded('de') meSpeak.setDefaultVoice('de');
+// note: the default voice is always the the last voice loaded
+
+meSpeak.loadVoice('fr.json', userCallback);
+// userCallback is an optional callback-handler. The callback will receive two arguments:
+// * a boolean flag for success
+// * either the id of the voice, or a reason for errors ('network error', 'data error', 'file error')
+alert(meSpeak.getDefaultVoice()) // 'fr'
+
+if (meSpeak.isConfigLoaded()) meSpeak.speak('Configuration data has been loaded.');
+// note: any calls to speak() will be deferred, if no valid config-data has been loaded yet.</p>
+  
+  <h3>Voices currently available</h3>
+  <ul>
+    <li><b>ca</b> (Catalan)</li>
+    <li><b>cs</b> (Czech)</li>
+    <li><b>de</b> (German)</li>
+    <li><b>el</b> (Greek)</li>
+    <li><b>en/en</b> (English)</li>
+    <li><b>en/en-n</b> (English, regional)</li>
+    <li><b>en/en-rp</b> (English, regional)</li>
+    <li><b>en/en-sc</b> (English, Scottish)</li>
+    <li><b>en/en-us</b> (English, US)</li>
+    <li><b>en/en-wm</b> (English, regional)</li>
+    <li><b>eo</b> (Esperanto)</li>
+    <li><b>es</b> (Spanish)</li>
+    <li><b>es-la</b> (Spanish, Latin America)</li>
+    <li><b>fi</b> (Finnish)</li>
+    <li><b>fr</b> (French)</li>
+    <li><b>hu</b> (Hungarian)</li>
+    <li><b>it</b> (Italian)</li>
+    <li><b>kn</b> (Kannada)</li>
+    <li><b>la</b> (Latin)</li>
+    <li><b>lv</b> (Latvian)</li>
+    <li><b>nl</b> (Dutch)</li>
+    <li><b>pl</b> (Polish)</li>
+    <li><b>pt</b> (Portuguese, Brazil)</li>
+    <li><b>pt-pt</b> (Portuguese, European)</li>
+    <li><b>ro</b> (Romanian)</li>
+    <li><b>sk</b> (Slovak)</li>
+    <li><b>sv</b> (Swedish)</li>
+    <li><b>tr</b> (Turkish)</li>
+  </ul>
+
+  <h3>JSON File Formats</h3>
+  <p>1) Config-data: &quot;mespeak_config.json&quot;:<br />The config-file includes all data to configure the tone (e.g.: male or female) of the electronic voice.</p>
+  <p style="margin-left: 2em; white-space: pre; font-family: monospace;">{
+  &quot;config&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;,
+  &quot;phontab&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;,
+  &quot;phonindex&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;,
+  &quot;phondata&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;,
+  &quot;intonations&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;
+}</p>
+  <p>Finally the JSON object may include an optional voice-object (see below), that will be set up together with the config-data:</p>
+  <p style="margin-left: 2em; white-space: pre; font-family: monospace;">{
+  ...
+  &quot;voice&quot;: { &lt;voice-data&gt; }
+}</p>
+  
+  <p>2) Voice-data: &quot;voice.json&quot;:<br />A voice-file includes the ids of the voice and the dictionary used by this voice, and the binary data of theses two files.</p>
+  <p style="margin-left: 2em; white-space: pre; font-family: monospace;">{
+  &quot;voice_id&quot;: &quot;&lt;voice-identifier&gt;&quot;,
+  &quot;dict_id&quot;: &quot;&lt;dict-identifier&gt;&quot;,
+  &quot;dict&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;,
+  &quot;voice&quot;: &quot;&lt;base64-encoded octet stream&gt;&quot;
+}</p>
+  <p>Both config-data and voice-data may be loaded and switched on the fly to (re-)configure meSpeak.js.</b>
+
+  <h3>Deferred Calls</h3>
+  <p>In case that speak() is called before configuration and/or voice data has been loaded, the call will be deferred and executed after set up.<br />See this <a href="deferred-call-demo.html">page</a> for an example. You may reset the queue manually by calling</p>
+  <p style="margin-left: 2em; white-space: pre; font-family: monospace;">meSpeak.resetQueue();</p>
+
+  <h3>Source</h3>
+  <p><b>Download</b> (all code under GPL): <a href="mespeak.zip">mespeak.zip</a><br />
+  (Last update: 2011-12-12 14:00 GMT)</p>
+  
+  <hr style="margin-top: 2em; margin-bottom: 2em;">
+
+  <h3>About speak.js</h3>
+  <p>
+    <b>speak.js</b> is 100% clientside JavaScript. It uses <a href="http://espeak.sourceforge.net/" target="_blank">eSpeak</a>, an open source
+    speech synthesizer, which was compiled from C++ to JavaScript using <a href="http://emscripten.org" target="_blank">Emscripten</a>.
+    The project page and source code for this demo can be found <a href="https://github.com/kripken/speak.js" target="_blank">here</a>.
+  </p>
+
+  <p>
+    Browser requirements:
+    <ul>
+      <li><b>Typed arrays</b>. The eSpeak code is not portable to the extent that would be necessary to avoid using typed arrays.
+          (It should however be possible to rewrite small bits of eSpeak to fix that.)
+          Typed arrays are present in Firefox, Chrome, Webkit, and Safari, but not IE or Opera.</li>
+    </ul>
+    Note that recent versions of these browsers are needed in most cases.
+  </p>
+</body>
+</html>
+
