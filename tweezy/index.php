@@ -46,17 +46,13 @@ rapArray = [];
 
 //Get some new tweets
 tweetArray = [];
-//rap("#poop", null, 15);
 
 tipsy = new Audio("02-j-kwon-tipsy_(instrumental).mp3");
 			$(tipsy).load( function ()
 			{
-     			//loadingDone(); // not being called ;(
 			});
 tipsy.volume = .7;
 
-//getSoundURL("hello is this working?");
-//getSoundURL("hihihihihihihi it works");
 </script>
 
 </head>

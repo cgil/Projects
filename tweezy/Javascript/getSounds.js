@@ -1,3 +1,5 @@
+//Event driven finite state execution!
+
 function getSoundURL(text, _term, _rhyme, _count) {
 	var baseURL = "Common/curl_download.php";
 	var fullURL = baseURL;
@@ -10,7 +12,7 @@ function getSoundURL(text, _term, _rhyme, _count) {
 			sound = new Audio(mp3URL);
 			$(sound).load( function ()
 			{
-     			//loadingDone(); // not being called ;(
+     			//Hoorah!
 			});
 			storeLine(sound,text, _term, _rhyme, _count);
 		});
@@ -18,36 +20,19 @@ function getSoundURL(text, _term, _rhyme, _count) {
 }
 
 function done(){
-		//soundArray_fake[];
-		/*rapArray 	= ["IM RAPPING GUYS",
-									"I'M REALLY RAPPING!!",
-									"SING ALONG WITH ME OR SOME BULLSHIT",
-									"JUST KIDDING, THIS IS A TEST. YOU WOULD BE LAME TO SING ALONG WITH THIS"];
-		*/
+
 		var randDegrees;
 		$("#thought_div").css("visibility","hidden");
 	    $("#speech_div").css("visibility","visible");
 		
-		/*sound = new Audio("../02-j-kwon-tipsy_(instrumental).mp3");
-			$(sound).load( function ()
-			{
-     			//loadingDone(); // not being called ;(
-			});*/
 		(tipsy).play();
 		for (var i=0; i < 4; i++){
 			rapLoop(0);
 		}
-		//setTimeout(function() {rapLoop(count); } , 1000);
-		/*
-		for (var i=0; i < rapArray.length; i++){
-			$("#speech_output").html('<p>'+rapArray[i]+'</p>');
-			randDegrees = Math.round(Math.random()*40)-20;
-			$("#speech_output").css('transform','rotate('+randDegrees+'deg)');
-			//TODO: Make audio play
-			*/
-		}
+
+}
 	
-	function rapLoop (count){
+function rapLoop (count){
 		if (count < rapArray.length){
 			//console.log(rapArray);
 			$("#speech_output").html('<p>'+rapArray[count]+'</p>');
@@ -59,13 +44,12 @@ function done(){
 			$(soundArray[count]).bind("ended", function(){displayRap(count)});
 			//setTimeout(function(){rapLoop(count+1);}, 2000);
 		}
-	}
+}
 	
 	
-	
-	function displayRap(count){
+function displayRap(count){
 		rapLoop(count+1);
-	}
+}
 
 function storeLine(sound, text, _term, _rhyme, _count) {
 	if(text != null) 
@@ -80,6 +64,7 @@ function storeLine(sound, text, _term, _rhyme, _count) {
 		done();
 }
 
+//Wow them!
 function demoPrep() {
 	soundArray = [];
 	rapArray = ["I'm in walmart with no shoes on",
