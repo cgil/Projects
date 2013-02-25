@@ -12,7 +12,7 @@ Tweezy:
 Tweezy the twitter rapper! Search for a popular hashtag and Tweezy will scrub twitter and make a a rap song on the fly. The propblem with Tweezy right now comes from the difficulty of forming meaningful rhyming lyrics from a slow twitter stream. This can be fixed by storing a few thousands Tweets ahead beforehand, running and preemtively indexing them agaisnt a rhyming dictionary. Updates to come.  
 
 Pixelorizer:
-Build18 2013 hardware hack. Pixelorizer is a giant LED board integrated with phototransistors making it possible to interact with it using infrared devices. Pixelorizer has a 16x32 cell display with a 512 pixel resolution. It has over 3000 painstakingly soldered connections and is powered by via an arduino using an efficient column scanning approach. It's capable of displaying beautiful screensavers and allows for simple games such as duckhunt to be played on it.
+Build18 2013 hardware hack. Pixelorizer is a giant LED board integrated with phototransistors making it possible to interact with it using infrared devices. Pixelorizer has a 16x32 cell display with a 512 pixel resolution. It has over 3000 painstakingly soldered connections and is powered via an arduino using an efficient column scanning approach. It's capable of displaying beautiful screensavers and allows us to play simple games such as duckhunt.
 
 evolution:
 The start of an evolution simulator.
